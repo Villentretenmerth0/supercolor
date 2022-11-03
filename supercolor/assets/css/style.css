@@ -1,0 +1,44 @@
+body{
+    background-color: #ECF0F1;
+}
+header{
+    padding: 10vh;
+    font-size: 5vh;
+    background-image: url("../img/background.png");
+    background-size: cover;
+    background-position: center;
+}
+section{
+    margin: 4% auto 4% auto;
+    width : 80%;
+    font-size: 3vh;
+}
+section div{
+    display: flex;
+    justify-content: space-evenly;
+}
+section img{ 
+    margin-bottom: 3%;
+    width: 70%;
+    max-width: 40%;
+    min-width: 20%;
+    object-fit: contain;
+    display: flex;
+}
+.nameProductAndPrice{
+    width: 30%;
+    flex-direction: column;
+    justify-content: center;
+}
+section p{
+    margin-top: 0px;
+}
+footer{ 
+    display: flex;
+    justify-content: center;
+    padding: 0.3%;
+    font-size: 2vh;
+    text-align: center;
+    background-color: #5DADE2;
+    color:#F7F9F9;
+}
